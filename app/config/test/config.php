@@ -4,6 +4,5 @@
  */
 
 return array(
-    'environment' => 'test',
     'debug' => true,
 );

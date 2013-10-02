@@ -16,4 +16,8 @@ return array(
         'logs'      => realpath(__DIR__ . '/../logs') . '/',
         'vendor'    => realpath(__DIR__ . '/../../vendor') . '/',
     ),
+    'routes' => array(
+        'Api\DefaultApi\Routes',
+        'Api\TestApi\Routes',
+    ),
 );

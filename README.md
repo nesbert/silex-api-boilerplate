@@ -42,15 +42,15 @@ sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit
 
 ## Sample Endpoints
 
-`http://myapi.dev` being a local domain.
+`http://localhost` being a local domain.
 
 ```
-http://myapi.dev/
-http://myapi.dev/test/users
-http://myapi.dev/test/users/1
+http://localhost/
+http://localhost/test/users
+http://localhost/test/users/1
 ```
 
-## OSS <3.
+## OSS <3
 
 - [Silex](http://silex.sensiolabs.org)
 - [silex-tutorial](https://github.com/georgiana-gligor/silex-tutorial) <- really helped

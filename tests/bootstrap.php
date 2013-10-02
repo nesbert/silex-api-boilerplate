@@ -1,10 +1,5 @@
 <?php
 /**
- * Register autoload routine for source classes.
- */
-//require_once __DIR__ . '/../app/autoload.php';
-
-/**
  * Register autoload routine for test classes.
  */
 spl_autoload_register(function($class) {
